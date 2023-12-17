@@ -26,8 +26,20 @@ This is a brain tumor feature dataset including five first-order features and ei
 Image column defines image name and Class column defines either the image has tumor or not (1 = Tumor, 0 = Non-Tumor)
 
 ## Business Requirements
-* Describe your business requirements
+The primary objective of this project is to develop a machine learning model for the early detection of brain tumors from medical images. The model should assist medical professionals in making quicker and more accurate diagnoses, and the patients should benefit from the earlier detection and the tempestive and appropriate treatment planning.
 
+Key Stakeholders, therefore shoud be:
+    - Medical professionals
+    - Patients
+    - Hospitals and healthcare facilities
+
+Requirements:
+
+Accuracy: The model should have a high accuracy rate in classifying brain images as either tumor (1) or non-tumor (0).
+Interpretability: The model should provide some insight into the prediction process and the relevant feature importance in that process, so the medical professionals could understand the relevant discoveries.
+Scalability: The solution should be scalable to handle a large volume of brain images from various sources.
+Speed: The model should be able to make predictions in real-time so that the reliable quick diagnosis could be make.
+Privacy: The meticulous attention should be given in the data collection in order to guarantee the patient's anonymity and consent for the data usage.
 
 ## Hypothesis and how to validate?
 * List here your project hypothesis(es) and how you envision validating it (them) 
