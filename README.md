@@ -35,15 +35,16 @@ Key Stakeholders, therefore shoud be:
 
 Requirements:
 
-Accuracy: The model should have a high accuracy rate in classifying brain images as either tumor (1) or non-tumor (0).
-Interpretability: The model should provide some insight into the prediction process and the relevant feature importance in that process, so the medical professionals could understand the relevant discoveries.
-Scalability: The solution should be scalable to handle a large volume of brain images from various sources.
-Speed: The model should be able to make predictions in real-time so that the reliable quick diagnosis could be make.
-Privacy: The meticulous attention should be given in the data collection in order to guarantee the patient's anonymity and consent for the data usage.
+- Accuracy: The model should have a high accuracy rate in classifying brain images as either tumor (1) or non-tumor (0).
+- Interpretability: The model should provide some insight into the prediction process and the relevant feature importance in that process, so the medical professionals could understand the relevant discoveries.
+- Scalability: The solution should be scalable to handle a large volume of brain images from various sources.
+- Speed: The model should be able to make predictions in real-time so that the reliable quick diagnosis could be make.
+- Privacy: The meticulous attention should be given in the data collection in order to guarantee the patient's anonymity and consent for the data usage.
 
 ## Hypothesis and how to validate?
-* List here your project hypothesis(es) and how you envision validating it (them) 
+- Hypothesis 1: The deep learning model with convolutional neural network (CNN) architecture will be able to accurately classify brain images as tumor or non-tumor.
 
+- Hypothesis 2: Data augmentation techniques will help improve model generalization.
 
 ## The rationale to map the business requirements to the Data Visualizations and ML tasks
 * List your business requirements and a rationale to map them to the Data Visualizations and ML tasks
