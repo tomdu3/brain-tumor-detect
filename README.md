@@ -48,7 +48,15 @@ Requirements:
 
 ## The rationale to map the business requirements to the Data Visualizations and ML tasks
 * List your business requirements and a rationale to map them to the Data Visualizations and ML tasks
+- Accuracy: Visualisations should make the model's performance metrics comprehensible. We will plot learning curves to monitor training progress and use confusion matrices for a detailed breakdown of classification results.
 
+Interpretability: Visualizations, especially heatmaps, will provide insight into how the model is making predictions. It is aligned with the interpretability requirement.
+
+Scalability: We will analyze the model's performance on varying sizes of datasets using visualizations to ensure it scales efficiently.
+
+Speed: Monitoring the model's inference time will ensure it meets the speed requirement.
+
+Privacy: This will be ensured through data anonymization, which will be part of the data handling and model deployment processes.
 
 ## ML Business Case
 * In the previous bullet, you potentially visualized an ML task to answer a business requirement. You should frame the business case using the method we covered in the course 
