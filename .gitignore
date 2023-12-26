@@ -11,3 +11,5 @@ kaggle.json
 venv/
 .env
 input/brain-tumor
+input/mri-tumor
+input/mri-non-tumor
