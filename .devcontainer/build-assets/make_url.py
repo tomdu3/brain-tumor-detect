@@ -1,14 +1,3 @@
-# Simple utility for creating the Cloudinary URL from a
-# cloudinary_python.txt file
-# Matt Rudge, November 2021
-
-import re
-
-with open("cloudinary_python.txt") as f:
-    content = f.readlines()
-
-cloud_name = re.findall(r"['](.*?)[']",content[15])[0]
-api_key = re.findall(r"['](.*?)[']",content[16])[0]
-api_secret = re.findall(r"['](.*?)[']",content[17])[0]
-
-print(f"cloudinary://{api_key}:{api_secret}@{cloud_name}")
+version https://git-lfs.github.com/spec/v1
+oid sha256:6515e9e1d3dbfc5bbeb12bc1b33f39c4ad794fd9ce086cb305d203f07543b8cf
+size 416
