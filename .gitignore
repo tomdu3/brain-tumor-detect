@@ -1,3 +1,18 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:73724625d84fe12576efa15a8ede1da568f309fcc03817db44a9d9029acd9e83
-size 234
+core.Microsoft*
+core.mongo*
+core.python*
+env.py
+__pycache__/
+*.py[cod]
+node_modules/
+.github/
+cloudinary_python.txt
+kaggle.json
+venv/
+.env
+input/brain-tumor
+input/mri-tumor
+input/mri-non-tumor
+input/train/
+input/test/
+input/validate/

@@ -1,3 +1,6 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:648c1bcba1a7b101ac257e9f64a38d951bd6f6d86eb53547e1dfa0cf6e3a6da7
-size 86
+version: '3'
+services:
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
